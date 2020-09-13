@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Proxima Nova Light";
+  src: url("./fonts/Proxima-Nova-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Proxima Nova Regular";
+  src: url("./fonts/Proxima-Nova-Regular.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body, p {
+  margin: 0;
+  background-color: #fff;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  height: 450px;
+}
+
+section {
+  margin: 15% 15px;
+  width: 300px;
+  color: #9d9d9d;
+  font-family: Proxima Nova Light;
+  font-size: 14px;
+  text-align: center;
+}
+
+.title {
+  padding-top: 30px;
+  color: #000;
+  font-family: Proxima Nova Regular;
+  text-transform: uppercase;
+}
+
+.icon {
+  padding: 25px 35px;
+  border: 2px solid #1275b9;    
+  border-radius: 50%;
+  color: #fff;
+}
+
+.cog {
+  background: #1275b9 url(./img/Settings.png) no-repeat center;
+}
+
+.cog:hover {
+  background: #fff url(./img/Settings-blue.png) no-repeat center;
+}
+
+.mob {
+  background:  #1275b9 url(./img/Tablet-white.png) no-repeat center;
+}
+
+.mob:hover {
+  background:  #fff url(./img/Tablet.png) no-repeat center;
+}
+
+.dashboard {
+  background:  #1275b9 url(./img/Dashboard.png) no-repeat center;
+}
+
+.dashboard:hover {
+  background:  #fff url(./img/Dashboard-blue.png) no-repeat center;
+}
