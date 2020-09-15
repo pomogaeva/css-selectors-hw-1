@@ -39,33 +39,32 @@ section {
   text-transform: uppercase;
 }
 
-.icon {
-  padding: 25px 35px;
+.icon-container {
+  width: max-content;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 30px;
   border: 2px solid #1275b9;    
   border-radius: 50%;
+  transition: background-color .4s;
+  cursor: pointer;
+}
+
+.icon-Dashboard, 
+.icon-Settings, 
+.icon-Tablet {
+  font-size: 30px;
+  color: #1275b9;
+}
+
+.icon-container:hover {
+  background-color: #1275b9;
+}
+
+.icon-container:hover, 
+.icon-Dashboard:hover, 
+.icon-Settings:hover, 
+.icon-Tablet:hover {
   color: #fff;
-}
-
-.cog {
-  background: #1275b9 url(./img/Settings.png) no-repeat center;
-}
-
-.cog:hover {
-  background: #fff url(./img/Settings-blue.png) no-repeat center;
-}
-
-.mob {
-  background:  #1275b9 url(./img/Tablet-white.png) no-repeat center;
-}
-
-.mob:hover {
-  background:  #fff url(./img/Tablet.png) no-repeat center;
-}
-
-.dashboard {
-  background:  #1275b9 url(./img/Dashboard.png) no-repeat center;
-}
-
-.dashboard:hover {
-  background:  #fff url(./img/Dashboard-blue.png) no-repeat center;
 }
